@@ -24,7 +24,7 @@ int main(int argc, char** argv) {
     glutInitWindowPosition(200, 100);
     glutInitWindowSize(1080, 720);
 
-    glutCreateWindow("car and driver");
+    glutCreateWindow("dipole");
     glutDisplayFunc(display);
     glutReshapeFunc(reshape);
     glutTimerFunc(1000, timer, 0);
